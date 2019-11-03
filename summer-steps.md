@@ -42,6 +42,10 @@ Good open curricula:
 
 * ...
 
+Project Ideas
+
+* [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
+
 # Going Beyond
 
 After a certain point, you should consider finding either internships or undergraduate research projects.
