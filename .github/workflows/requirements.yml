@@ -11,9 +11,9 @@ jobs:
         cd requirements/
         mkdir output/
         sudo apt-get install -y graphviz
-        dot -Tpng -v cs_bs.dot -o output/cs_bs.png
+        dot -Tpng cs_bs.dot -o cs_bs.png
         echo "Started"
-        ls output/
+        ls
         pwd
         echo "Done"
     - name: Upload Results
