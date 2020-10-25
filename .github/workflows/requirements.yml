@@ -13,6 +13,10 @@ jobs:
         sudo apt-get install -y graphviz
         dot -Tpng cs_bs.dot -o output/cs_bs.png
         pwd
+    - name: Test Files
+      runs: |
+        ls /home/runner/work/student-guidance/student-guidance/requirements/output/ -lat
+        ls output/ -lat
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
