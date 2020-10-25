@@ -6,12 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Setup Graphviz
-      run: |
-        sudo apt-get install -y graphviz
     - name: Make files
       run: |
         cd requirements/
+        sudo apt-get install -y graphviz
         mkdir output/
         make
     - name: Upload Results
