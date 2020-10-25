@@ -12,7 +12,9 @@ jobs:
         mkdir output/
         chmod 777 output/
         sudo apt-get install -y graphviz
-        dot -Tpng:cairo cs_bs.dot -o output/cs_bs.png -v
+        dot -Tpng:cairo cs_bs.dot -o output/cs_bs.png
+        dot -v
+        dot -c
         ls -lat output/
         echo "STARTED"
         cat output/cs_bs.png
