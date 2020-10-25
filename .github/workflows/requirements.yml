@@ -13,7 +13,7 @@ jobs:
         sudo apt-get install -y graphviz
         dot -Tpng cs_bs.gv -o output/cs_bs.png
         ls -alt
-        ls -alt output/
+        ls -alt output/*.png
         pwd
     - name: Upload Results
       uses: actions/upload-artifact@v2
