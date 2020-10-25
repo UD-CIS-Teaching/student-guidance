@@ -10,8 +10,7 @@ jobs:
       run: |
         cd requirements/
         sudo apt-get install -y graphviz
-        dot -Tpng cs_bs.dot -o cs_bs.png
-        pwd
+        dot -Tpng cs_bs.dot
     - name: Test Files
       run: |
         ls /home/runner/work/student-guidance/student-guidance/requirements/ -lat
