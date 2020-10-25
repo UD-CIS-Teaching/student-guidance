@@ -10,13 +10,9 @@ jobs:
       run: |
         cd requirements/
         sudo apt-get install -y graphviz
-        dot -Tpng cs_bs.dot
-    - name: Test Files
-      run: |
-        ls /home/runner/work/student-guidance/student-guidance/requirements/ -lat
-        ls requirements/ -lat
+        dot -Tpng cs_bs.dot -o output/cs_bs.png -v
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
         name: requirements-graph
-        path: /home/runner/work/student-guidance/student-guidance/requirements/
+        path: /home/runner/work/student-guidance/student-guidance/requirements/output/
