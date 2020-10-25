@@ -12,8 +12,8 @@ jobs:
         mkdir output/
         chmod 777 output/
         sudo apt-get install -y graphviz
-        cat cs_bs.dot
         dot -Tpng:cairo -o output/cs_bs.png cs_bs.dot
+        cat output/cs_bs.png
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
