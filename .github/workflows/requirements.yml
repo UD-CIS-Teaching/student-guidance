@@ -13,7 +13,7 @@ jobs:
         chmod 777 output/
         sudo apt-get install -y graphviz
         cat cs_bs.dot
-        dot -Tpng:cairo cs_bs.dot -o output/cs_bs.png
+        dot -Tpng:cairo -o output/cs_bs.png cs_bs.dot
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
