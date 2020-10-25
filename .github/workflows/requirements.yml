@@ -16,7 +16,6 @@ jobs:
         dot -v
         ls -lat output/
         echo "STARTED" > simple.txt
-        cat output/cs_bs.png
         echo "COMPLETED" > output/test.txt
     - name: Upload Results
       uses: actions/upload-artifact@v2
