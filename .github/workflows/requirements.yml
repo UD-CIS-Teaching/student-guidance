@@ -13,7 +13,7 @@ jobs:
         chmod 777 output/
         sudo apt-get install -y graphviz
         dot -Tpdf -o output/cs_bs.pdf cs_bs.dot
-        cat output/cs_bs.png
+        cat output/cs_bs.pdf
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
