@@ -11,7 +11,7 @@ jobs:
         cd requirements/
         sudo apt-get install -y graphviz
         mkdir output/
-        graphviz -Tpng -v cs_bs.dot -o output/cs_bs.png
+        dot -Tpng -v cs_bs.dot -o output/cs_bs.png
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
