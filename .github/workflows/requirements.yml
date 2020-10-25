@@ -15,9 +15,9 @@ jobs:
         dot -Tpng:cairo cs_bs.dot -o output/cs_bs.png
         dot -v
         ls -lat output/
-        echo "STARTED"
+        echo "STARTED" > simple.txt
         cat output/cs_bs.png
-        echo "COMPLETED"
+        echo "COMPLETED" > output/test.txt
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
