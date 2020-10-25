@@ -9,6 +9,8 @@ jobs:
     - name: Make files
       run: |
         cd requirements/
+        mkdir output/
+        chmod 777 output/
         sudo apt-get install -y graphviz
         dot -Tpng:cairo cs_bs.dot -o output/cs_bs.png -v
         ls -lat output/
