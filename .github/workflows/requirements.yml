@@ -13,8 +13,9 @@ jobs:
         sudo apt-get install -y graphviz
         dot -Tpng cs_bs.dot > output/cs_bs.png
         ls output/
+        pwd
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
         name: requirements-graph
-        path: $GITHUB_WORKSPACE/requirements/output/
+        path: output/
