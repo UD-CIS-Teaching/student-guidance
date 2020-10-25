@@ -1,3 +1,4 @@
+# sudo apt-get install -y graphviz
 name: Graphviz CI
 on: [push]
 jobs:
@@ -9,7 +10,6 @@ jobs:
     - name: Make files
       run: |
         cd requirements/
-        sudo apt-get install -y graphviz
         mkdir output/
         dot -Tpng -v cs_bs.dot -o output/cs_bs.png
     - name: Upload Results
