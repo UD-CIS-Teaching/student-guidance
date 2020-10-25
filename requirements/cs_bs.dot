@@ -1,0 +1,23 @@
+@startuml
+
+digraph world {
+
+node [ fillcolor="lightblue" style=filled ]
+
+size="7,7";
+rankdir="LR";
+	{rank=same; CISC108;CISC106;}
+	{rank=same; CISC181;CISC210;}
+	{rank=same; CISC220;CISC355;}
+
+    EGG101;
+	CISC108 -> {CISC181; CISC210};
+	CISC106 -> {CISC181; CISC210};
+	CISC210 -> {CISC220 ; CISC260}
+	CISC181 -> CISC220 [style=dashed];
+	CISC220 -> {CISC275 ; CISC320; CISC303}
+	CISC275 -> CISC498;
+	CISC498 -> CISC499;
+	CISC355;
+}
+@enduml
