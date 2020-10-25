@@ -12,6 +12,7 @@ jobs:
         mkdir output/
         sudo apt-get install -y graphviz
         dot -Tpng cs_bs.dot -o cs_bs.png > cs_bs_2.png
+        ls
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
