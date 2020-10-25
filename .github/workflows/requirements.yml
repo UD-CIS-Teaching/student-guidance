@@ -14,6 +14,9 @@ jobs:
         sudo apt-get install -y graphviz
         dot -Tpng:cairo cs_bs.dot -o output/cs_bs.png -v
         ls -lat output/
+        echo "STARTED"
+        cat output/cs_bs.png
+        echo "COMPLETED"
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
