@@ -10,7 +10,8 @@ jobs:
       run: |
         cd requirements/
         sudo apt-get install -y graphviz
-        dot -Tpng cs_bs.dot -o output/cs_bs.png -v
+        dot -Tpng:cairo cs_bs.dot -o output/cs_bs.png -v
+        ls -lat output/
     - name: Upload Results
       uses: actions/upload-artifact@v2
       with:
