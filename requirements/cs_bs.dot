@@ -1,5 +1,3 @@
-@startuml
-
 digraph world {
 
 node [ fillcolor="lightblue" style=filled ]
@@ -20,4 +18,3 @@ rankdir="LR";
 	CISC498 -> CISC499;
 	CISC355;
 }
-@enduml
