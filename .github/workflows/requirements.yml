@@ -12,8 +12,26 @@ jobs:
         mkdir output/
         sudo apt-get install -y graphviz
         make
-    - name: Upload Results
-      uses: actions/upload-artifact@v2
+    - name: Commit documentation changes
+      run: |
+        git clone https://github.com/UD-CIS-Teaching/student-guidance.git --branch gh-pages --single-branch gh-pages
+        cp -r requirements/output/* gh-pages/
+        cp requirements/index.md gh-pages/
+        cd gh-pages
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update build results" -a || true
+        # The above command will fail if no changes were present, so we ignore
+        # that.
+    - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
-        name: requirements-graph
-        path: requirements/output/
+        branch: gh-pages
+        directory: gh-pages
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+#    - name: Upload Results
+#      uses: actions/upload-artifact@v2
+#      with:
+#        name: requirements-graph
+#        path: requirements/output/
