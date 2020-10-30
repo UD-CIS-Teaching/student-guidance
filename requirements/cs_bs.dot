@@ -24,6 +24,7 @@ digraph world {
     {rank=same; "4 Spring";CISC499;"Tech 2";"Conc 4"}
     
     MATH210 -> CISC220 [dir="both" style=dashed];
+    CISC108 -> MATH241 [dir="both" style=dashed];
 
     EGG101;
     "Lab Sci #1" -> "Lab Sci #2";
