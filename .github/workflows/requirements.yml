@@ -18,10 +18,10 @@ jobs:
         # Main page
         cp requirements/index.md gh-pages/
         # Generated images
-        mkdir gh-pages/images/
+        mkdir -p gh-pages/images/
         cp -r requirements/output/* gh-pages/images/
         # Concentrations
-        mkdir gh-pages/concentrations/
+        mkdir -p gh-pages/concentrations/
         cp concentrations/*.md gh-pages/concentrations/
         # Upload final result
         cd gh-pages
