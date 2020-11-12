@@ -1,0 +1,20 @@
+digraph world {
+
+    node [ fillcolor="lightblue" style=filled ];
+    size="7,7";
+    rankdir="LR";
+    
+    "Fifth" -> "Sixth" -> "Seventh" -> "Eighth";
+    "Fifth" [shape="box" fillcolor="lightyellow"];
+    "Sixth" [shape="box" fillcolor="lightyellow"];
+    "Seventh" [shape="box" fillcolor="lightyellow"];
+    "Eighth" [shape="box" fillcolor="lightyellow"];
+
+    {rank=same; "Fifth";CISC304;"CISC Elective";"AI Elective 1/4";CISC303; CISC361;}
+    {rank=same; "Sixth";"ENGL410";"AI Elective 2/4";"CISC320";CISC442;"CISC481";}
+    {rank=same; "Seventh";CISC498;"CISC483";"AI Elective 3/4";"Free Elective 3/6";"Free Elective 4/6"}
+    {rank=same; "Eighth";CISC499;"CISC484";"AI Elective 4/4";"Free Elective 5/6";"Free Elective 6/6"}
+    
+    CISC304 -> CISC481;
+    CISC498 -> CISC499;
+}
