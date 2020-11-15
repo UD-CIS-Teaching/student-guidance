@@ -7,11 +7,11 @@ import { Degree } from '../models/Degree';
   providedIn: 'root',
 })
 export class RequirementsService {
-  REQUIREMENTS_PATH = '';
+  REQUIREMENTS_PATH = 'assets/requirements.json';
 
   constructor(private http: HttpClient) {}
 
-  get courseRequirements(): Observable<{ [key: string]: Degree }> {
-    return this.http.get<{ [key: string]: Degree }>(this.REQUIREMENTS_PATH);
+  get courseRequirements(): Observable<Degree[]> {
+    return this.http.get<Degree[]>(this.REQUIREMENTS_PATH);
   }
 }

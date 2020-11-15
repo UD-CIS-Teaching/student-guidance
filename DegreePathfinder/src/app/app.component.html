@@ -1,5 +1,9 @@
 <div *ngFor="let degree of degrees">
-    {{degree.name}}
+    Degree: {{degree.name}}
+    <div *ngFor="let req of degree.requirements">
+        required: {{req.name}}
+    </div>
+    <hr/>
 </div>
 
 

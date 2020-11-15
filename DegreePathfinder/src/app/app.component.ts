@@ -9,17 +9,15 @@ import { RequirementsService } from 'src/core/services/requirements.service';
 })
 export class AppComponent implements OnInit {
   title = 'DegreePathfinder';
-  degrees: { [key: string]: Degree } = {};
+  degrees: Degree[] = [];
 
   constructor(private reqService: RequirementsService) {}
 
   ngOnInit(): void {
-    this.reqService.courseRequirements.subscribe(
-      (degrees: { [key: string]: Degree }) => {
-        console.log(degrees);
+    this.reqService.courseRequirements.subscribe((degrees: Degree[]) => {
+      console.log(degrees);
 
-        this.degrees = degrees;
-      }
-    );
+      this.degrees = degrees;
+    });
   }
 }
