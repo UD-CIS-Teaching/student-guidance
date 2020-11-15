@@ -6,19 +6,24 @@ import { AppComponent } from './app.component';
 import { OnboardComponent } from './onboard/onboard.component';
 import { EditorComponent } from './editor/editor.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RequirementsListComponent } from './requirements-list/requirements-list.component';
+import { PathService } from 'src/core/services/path.service';
+import { DegreePickerComponent } from './degree-picker/degree-picker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OnboardComponent,
-    EditorComponent
+    EditorComponent,
+    RequirementsListComponent,
+    DegreePickerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -7,5 +7,7 @@ import { Path } from '../models/Path';
 export class PathService {
   currentPath: Path | undefined;
 
-  constructor() {}
+  constructor() {
+    this.currentPath = new Path("Example 1", undefined, []);
+  }
 }

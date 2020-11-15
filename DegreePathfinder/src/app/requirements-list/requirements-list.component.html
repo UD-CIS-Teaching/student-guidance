@@ -1,0 +1,11 @@
+<h3>Requirements</h3>
+<div>Path: {{ pathService.currentPath.name }}</div>
+<div *ngIf="pathService.currentPath.degree; else elseBlock">
+  Degree: {{ pathService.currentPath.degree.name }}
+  <ul>
+    <li *ngFor="let requirement of pathService.currentPath.degree.requirements">{{ requirement.name }}</li>
+  </ul>
+</div>
+<ng-template #elseBlock>No Degree specified for Path</ng-template>
+
+<div>Change Degree</div>
