@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "DegreePathfinder"
+  "defaultProject": "DegreePathfinder",
+  "cli": {
+    "analytics": "a5fcc27e-e477-4aa4-a12c-d3c625c20b07"
+  }
 }
