@@ -1,0 +1,7 @@
+{
+  "cisc201": ["cisc108","cisc106"],
+  "cisc220": ["cisc210"],
+  "cisc275": ["cisc220"],
+  "cisc498": ["cisc275"],
+  "cisc499": ["cisc498"]
+}
