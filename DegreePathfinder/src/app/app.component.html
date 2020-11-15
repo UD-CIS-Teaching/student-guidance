@@ -6,12 +6,4 @@
   </ul>
 </nav>
 
-<div *ngFor="let degree of degrees">
-    Degree: {{degree.name}}
-    <div *ngFor="let req of degree.requirements">
-        required: {{req.name}}
-    </div>
-    <hr/>
-</div>
-
 <router-outlet></router-outlet>
