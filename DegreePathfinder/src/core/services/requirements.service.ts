@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Degree } from '../models/Degree';
 
 @Injectable({
   providedIn: 'root',
@@ -10,7 +11,7 @@ export class RequirementsService {
 
   constructor(private http: HttpClient) {}
 
-  get courseRequirements(): Observable<any> {
-    return this.http.get(this.REQUIREMENTS_PATH);
+  get courseRequirements(): Observable<{ [key: string]: Degree }> {
+    return this.http.get<{ [key: string]: Degree }>(this.REQUIREMENTS_PATH);
   }
 }
