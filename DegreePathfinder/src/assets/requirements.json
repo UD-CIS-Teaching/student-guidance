@@ -1,6 +1,17 @@
-{
-  "csbs": [
-    {"cs1": ["cisc108|cisc106"]},
-    {"capstone": ["cisc498", "cisc499"]}
-  ]
-}
+[
+  {
+    "name": "csbs",
+    "requirements": [
+      {"name": "cs1", "courses": ["cisc108|cisc106"]},
+      {"name": "capstone", "courses": ["cisc498", "cisc499"]}
+    ]
+  },
+  {
+    "name": "ai",
+    "requirements": [
+      {"name": "cs1", "courses": ["cisc108|cisc106"]},
+      {"name": "AI Elective", "courses": ["cisc481"]},
+      {"name": "capstone", "courses": ["cisc498", "cisc499"]}
+    ]
+  }
+]
