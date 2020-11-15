@@ -1,7 +1,20 @@
-{
-  "cisc201": ["cisc108","cisc106"],
-  "cisc220": ["cisc210"],
-  "cisc275": ["cisc220"],
-  "cisc498": ["cisc275"],
-  "cisc499": ["cisc498"]
-}
+[
+  {"name": "cisc108", "title": "Introduction to Computer Science",
+  "prereqs": []},
+  {"name": "cisc106", "title": "Introduction for Engineers",
+  "prereqs": []},
+  {"name": "cisc181", "title": "Intro to Object-Oriented",
+  "prereqs": ["cisc106|cisc108"]},
+  {"name": "cisc210", "title": "Intro to C",
+  "prereqs": ["cisc106|cisc108"]},
+  {"name": "cisc220", "title": "Data Structures",
+  "prereqs": ["cisc210"]},
+  {"name": "cisc260", "title": "Assembly",
+  "prereqs": ["cisc210"]},
+  {"name": "cisc275", "title": "Software Engineering",
+  "prereqs": ["cisc220"]},
+  {"name": "cisc498", "title": "Capstone 1",
+  "prereqs": ["cisc275"]},
+  {"name": "cisc499", "title": "Capstone 2",
+  "prereqs": ["cisc498"]}
+]

@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OnboardComponent } from './onboard/onboard.component';
+import { EditorComponent } from './editor/editor.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OnboardComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
