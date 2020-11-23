@@ -1,17 +1,14 @@
-The first four semesters are pretty much the same for everyone.
-
-# Jobs
-
-Whether you major or minor in CS, the need for Software Engineers is so great you are very likely to find a job.
-
-
-# Degree Flow
+---
+title: "The CISC Core"
+---
 
 The diagram below shows the first four semesters of the Computer Science degree.
 It's pretty much the same for all the concentrations and degrees.
 That means you have some time to figure out how you want to specialize your degree.
 
 ![images/cs_core.png](images/cs_core.png)
+
+Your primary goal is to complete CISC220 as soon as possible, since that is the prereq for almost all other CISC courses. After that, you actually have some flexibility.
 
 # What is Computer Science?
 
