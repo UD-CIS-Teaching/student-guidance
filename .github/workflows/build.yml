@@ -11,7 +11,8 @@ jobs:
         cd graphs/
         mkdir output/
         sudo apt-get install -y graphviz
-        for f in *.dot; do dot -Tpng $$f -o output/$${f%.dot}.png; done
+        make
+        #for f in *.dot; do dot -Tpng $$f -o output/$${f%.dot}.png; done
     - name: Populate gh-pages
       run: |
         # Clone just the gh-pages branch
