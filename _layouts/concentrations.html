@@ -10,10 +10,10 @@ layout: default
 <h2>Relevant Courses</h2>
 
 <ul>
-<p>{{ site.collections}}</p>
-<p>{{ site.collections.courses }}</p>
+<p>{{ site.courses }}</p>
+<p>{{ site.courses | where: "code", course }}</p>
 {% for course in page.courses %}
-    {% assign course_data = site.collections.courses | where: "code", course | first %}
+    {% assign course_data = site.courses | where: "code", course | first %}
     <li>{{ course_data.name }}: {{ course_data.content | markdownify }}</li>
 {% endfor %}
 </ul>
