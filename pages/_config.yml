@@ -6,7 +6,7 @@ collections:
     output: true
   courses:
     output: true
-permalink: pretty
+#permalink: pretty
 defaults:
   - scope:
       path: ""
