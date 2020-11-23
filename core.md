@@ -1,17 +1,14 @@
-The first four semesters are pretty much the same for everyone.
-
-# Jobs
-
-Whether you major or minor in CS, the need for Software Engineers is so great you are very likely to find a job.
-
-
-# Degree Flow
+---
+title: "The CISC Core"
+---
 
 The diagram below shows the first four semesters of the Computer Science degree.
 It's pretty much the same for all the concentrations and degrees.
 That means you have some time to figure out how you want to specialize your degree.
 
 ![images/cs_core.png](images/cs_core.png)
+
+Your primary goal is to complete CISC220 as soon as possible, since that is the prereq for almost all other CISC courses. After that, you actually have some flexibility.
 
 # What is Computer Science?
 
@@ -43,7 +40,7 @@ Computer Scientists also think about the theories underlying problem-solving.
 You may not know this, but we have learned fundamental truths about the universe through Computer Science.
 For instance, in the early decades of Computer Science, researchers proved the smallest set of programming operations required to have a fully complete language that can solve any computable problem.
 While doing so, they also proved that some problems are incomputable - no matter how strong a computer you have, these problems cannot be solved.
-Some of the problems that fall into this category may be surprising: for instance, it is impossible to write a program that determines if ANY other program halts (The [https://www.youtube.com/watch?v=t37GQgUPa6k]("Halting Problem")).
+Some of the problems that fall into this category may be surprising: for instance, it is impossible to write a program that determines if ANY other program halts (The ["Halting Problem"](https://www.youtube.com/watch?v=t37GQgUPa6k).
 Although most of the early curriculum does not cover these ideas, their groundwork does appear in courses like MATH210, MATH205, and CISC220.
 
 ## Software Development 
