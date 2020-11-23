@@ -43,7 +43,7 @@ Computer Scientists also think about the theories underlying problem-solving.
 You may not know this, but we have learned fundamental truths about the universe through Computer Science.
 For instance, in the early decades of Computer Science, researchers proved the smallest set of programming operations required to have a fully complete language that can solve any computable problem.
 While doing so, they also proved that some problems are incomputable - no matter how strong a computer you have, these problems cannot be solved.
-Some of the problems that fall into this category may be surprising: for instance, it is impossible to write a program that determines if ANY other program halts (The [https://www.youtube.com/watch?v=t37GQgUPa6k]("Halting Problem")).
+Some of the problems that fall into this category may be surprising: for instance, it is impossible to write a program that determines if ANY other program halts (The ["Halting Problem"](https://www.youtube.com/watch?v=t37GQgUPa6k).
 Although most of the early curriculum does not cover these ideas, their groundwork does appear in courses like MATH210, MATH205, and CISC220.
 
 ## Software Development 
