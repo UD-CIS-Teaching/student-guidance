@@ -19,8 +19,8 @@ In the following sections, I try to explain very briefly what Computer Science i
 Generally, Computer Science is all about problem solving.
 Technically, so is every other Engineering field, but we do it with computers.
 This often means writing programs, but a lot of the ideas go way beyond that.
-
 In your first semester, the major point of CISC108 is to teach you problem solving.
+What is a problem? How do we know if we solved it? How can we approach problems rigorously? How do we reuse solutions for similar problems? How do we tackle problems at scale? These are all questions that get introduced your first semester but are carried throughout your career.
 
 ## Programming
 
