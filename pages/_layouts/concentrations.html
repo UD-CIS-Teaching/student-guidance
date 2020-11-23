@@ -10,11 +10,9 @@ layout: default
 <h2>Relevant Courses</h2>
 
 <ul>
-<p>{{ site.courses }}</p>
-<p>{{ site.courses | where: "code", course }}</p>
 {% for course in page.courses %}
     {% assign course_data = site.courses | where: "code", course | first %}
-    <li>{{ course_data.name }}: {{ course_data.content | markdownify }}</li>
+    <li><a href="{{ course_data.catalog }}"><strong>{{ course_data.code }} - {{ course_data.name }}</strong></a>: {{ course_data.content | markdownify }}</li>
 {% endfor %}
 </ul>
 
