@@ -10,6 +10,8 @@ courses:
 
 Computers are dumb. They follow instructions fast, but cannot think for themselves. Artificial Intelligence is all about ways to make computers appear to be smarter.
 
+<iframe width="644" height="362" src="https://www.youtube.com/embed/JRHAM1nAuD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Official Description
 
 The B.S. in Computer Science with Concentration in Artificial Intelligence & Robotics provides a broad background in core computer science topics, supplemented by advanced courses in logic, machine learning, computer vision, and a number of electives in related areas of linguistics, electrical and mechanical engineering, and psychology. The Department of Computer & Information Sciences has substantial expertise in AI and robotics, with many faculty specializing in AI research, including natural language processing, multi-agent systems, knowledge representation, computer vision, intelligent tutoring systems, and robotic development.
