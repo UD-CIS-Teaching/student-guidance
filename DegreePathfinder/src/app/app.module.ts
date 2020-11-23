@@ -7,6 +7,7 @@ import { OnboardComponent } from './onboard/onboard.component';
 import { EditorComponent } from './editor/editor.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RequirementsListComponent } from './requirements-list/requirements-list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PathService } from 'src/core/services/path.service';
 import { DegreePickerComponent } from './degree-picker/degree-picker.component';
 
@@ -21,7 +22,9 @@ import { DegreePickerComponent } from './degree-picker/degree-picker.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]

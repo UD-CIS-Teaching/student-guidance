@@ -1,1 +1,9 @@
-<p>degree-picker works!</p>
+<div>
+  <form [formGroup]="degreePickerForm">
+    <label for="degreePicker">Change Degree:</label>
+    <select formControlName="degree" (ngModelChange)="dataChanged($event)">
+      <option [ngValue]="undefined" disabled>Select Degree</option>
+      <option *ngFor="let degree of degrees" [ngValue]="degree">{{ degree.name }}</option>
+    </select>
+  </form>
+</div>

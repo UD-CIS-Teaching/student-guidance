@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Path } from 'src/core/models/Path';
 import { PathService } from 'src/core/services/path.service';
 
 @Component({
   selector: 'app-requirements-list',
   templateUrl: './requirements-list.component.html',
   styleUrls: ['./requirements-list.component.css'],
-  providers: [ PathService ]
 })
 export class RequirementsListComponent implements OnInit {
 
-  constructor(private pathService: PathService) { }
+  @Input() currentPath!: Path;
+
+  constructor() {}
 
   ngOnInit(): void {
   }
