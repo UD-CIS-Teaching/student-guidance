@@ -22,7 +22,7 @@ Start by reading about the [core](core).
 
 <ul>
 {% for concentration in site.concentrations %}
-    <li><a href="{{ concentration.url | relative_url }}">{{ concentration.name }}</a>  - {{ concentration.question }}</li>
+    <li><a href="{{ concentration.url | relative_url }}">{{ concentration.title }}</a>  - {{ concentration.question }}</li>
 {% endfor %}
 </ul>
 
