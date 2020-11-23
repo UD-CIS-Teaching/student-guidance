@@ -1,4 +1,4 @@
-name: Graphviz CI
+name: Build Site
 on: [push]
 jobs:
   build:
@@ -6,23 +6,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Make files
+    - name: Make all graphs
       run: |
-        cd requirements/
+        cd graphs/
         mkdir output/
         sudo apt-get install -y graphviz
-        make
-    - name: Commit documentation changes
+        for f in *.dot; do dot -Tpng $$f -o output/$${f%.dot}.png; done
+    - name: Populate gh-pages
       run: |
+        # Clone just the gh-pages branch
         git clone https://github.com/UD-CIS-Teaching/student-guidance.git --branch gh-pages --single-branch gh-pages
-        # Main page
-        cp requirements/index.md gh-pages/
-        # Generated images
+        # Copy over top-level pages
+        cp -r pages/. gh-pages/
+        # Copy over Generated images
         mkdir -p gh-pages/images/
-        cp -r requirements/output/* gh-pages/images/
-        # Concentrations
-        mkdir -p gh-pages/concentrations/
-        cp concentrations/*.md gh-pages/concentrations/
+        cp -r graphs/output/* gh-pages/images/
         # Upload final result
         cd gh-pages
         git config --local user.email "action@github.com"
