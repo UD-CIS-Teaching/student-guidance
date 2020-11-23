@@ -11,7 +11,8 @@ layout: default
 
 <ul>
 {% for course in page.courses %}
-    <li>{{ course.name }}: {{ course.content | markdownify }}</li>
+    {% assign course_data = site.courses | where: "code", course | first %}
+    <li>{{ course_data.name }}: {{ course_data.content | markdownify }}</li>
 {% endfor %}
 </ul>
 
