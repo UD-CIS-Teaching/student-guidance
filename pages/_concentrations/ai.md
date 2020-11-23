@@ -1,5 +1,5 @@
 ---
-name: "Artificial Intelligence"
+name: ai
 code: ai
 wikipedia: "https://simple.wikipedia.org/wiki/Artificial_intelligence"
 question: "How do we make computers act smarter?"
