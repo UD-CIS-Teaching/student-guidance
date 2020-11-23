@@ -11,7 +11,7 @@ layout: default
 
 <ul>
 {% for course in page.courses %}
-    <li>{{ course.name }}: {{ course.content }}</li>
+    <li>{{ course.name }}: {{ course.content | markdownify }}</li>
 {% endfor %}
 </ul>
 
