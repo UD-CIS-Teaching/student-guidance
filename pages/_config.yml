@@ -7,7 +7,7 @@ collections:
   courses:
     output: true
 baseurl: /student-guidance
-permalink: pretty
+permalink: /student-guidance/:categories/:year/:month/:day/:title/
 defaults:
   - scope:
       path: ""
