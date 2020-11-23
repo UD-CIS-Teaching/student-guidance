@@ -8,6 +8,7 @@ collections:
     output: true
 baseurl: /student-guidance
 permalink: /student-guidance/:categories/:year/:month/:day/:title/
+markdown: kramdown
 defaults:
   - scope:
       path: ""
