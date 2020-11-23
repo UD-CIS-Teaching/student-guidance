@@ -1,8 +1,22 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
+<h1>Concentration in {{ page.name }}</h1>
 
-<blockquote>{{ page.question }}</blockquote>
+<em>{{ page.question }}</em>
 
 {{ content }}
+
+<h2>Relevant Courses</h2>
+
+<ul>
+{% for course in page.courses %}
+    <li>{{ course.name }}: {{ course.content }}</li>
+{% endfor %}
+</ul>
+
+<h2>Degree Flow</h2>
+
+For the first four semesters, check the [Core](../core).
+
+<img src="../images/cs_{{ page.code }}.png" />
