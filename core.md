@@ -1,6 +1,6 @@
 The first four semesters are pretty much the same for everyone.
 
-![../images/cs_core.png](../images/cs_core.png)
+![images/cs_core.png](images/cs_core.png)
 
 
 Whether you major or minor in CS, the need for Software Engineers is so great you are very likely to find a job.
