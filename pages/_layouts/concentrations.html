@@ -5,18 +5,34 @@ layout: default
 
 <em>{{ page.question }}</em>
 
+<p><a href="{{ page.catalog }}">Catalog 2020/2021 Link</a>{% unless page.official %} (Note, this is not an official existing concentration){% endunless %}</p>
+
 <p>Quick links:
     <ul>
         <li><a href="#overview">Overview</a></li>
         <li><a href="#official-description">Official Description</a></li>
+        <li><a href="#careers">Example Careers</a></li>
         <li><a href="#relevant-courses">Relevant Courses</a></li>
         <li><a href="#degree-flow">Degree Flow</a></li>
     </ul>
 </p>
 
-<a id="overview"></a>
+<h2>Overview</h2>
 
 {{ content }}
+
+<h2>Example Careers</h2>
+
+<p>Some example careers that may be well-suited for this concentration:</p>
+
+<ul>
+{% for career in page.careers %}
+    {% assign career_data = site.careers | where: "name", career | first %}
+    <li><strong>{{ career_data.title }}</strong>: {{ career_data.content | markdownify }}</li>
+{% endfor %}
+</ul>
+
+<p>But remember, there are many more careers out there!</p>
 
 <h2>Relevant Courses</h2>
 
