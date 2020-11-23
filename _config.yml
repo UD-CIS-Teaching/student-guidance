@@ -16,6 +16,11 @@ defaults:
       layout: "concentrations"
   - scope:
       path: ""
+      type: "courses"
+    values:
+      layout: "courses"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
