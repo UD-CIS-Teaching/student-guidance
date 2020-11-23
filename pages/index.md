@@ -1,3 +1,8 @@
+---
+layout: default
+title: Index
+---
+
 This website is meant to help students pick a concentration in Computer Science.
 
 Your concentration summarizes what courses you have taken and is an important part of "selling" your CS degree to employers.

@@ -1,7 +1,8 @@
 ---
-name: Artificial Intelligence
-wikipedia: https://simple.wikipedia.org/wiki/Artificial_intelligence
-question: How do we make computers act smarter?
+name: "Artificial Intelligence"
+short_name: ai
+wikipedia: "https://simple.wikipedia.org/wiki/Artificial_intelligence"
+question: "How do we make computers act smarter?"
 ---
 
 # Artificial Intelligence (AI)
