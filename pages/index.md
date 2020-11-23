@@ -6,3 +6,13 @@ You pick a concentration based on your interests.
 
 If you don't end up liking your career, you can change later on - it's not forcing you into a life-long decision.
 However, the sooner you figure out what you want to do, the more fun you will have in Computer Science!
+
+# Concentration List
+
+<ul>
+{% for concentration in site.concentrations %}
+    <li><a href="{{ concentration.url }}">{{ concentration.name }}</a>  - {{ concentration.question }}</li>
+{% endfor %}
+</ul>
+
+<!-- <p>{{ concentration.content | markdownify }}</p> -->
