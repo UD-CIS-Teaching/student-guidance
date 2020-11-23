@@ -1,0 +1,22 @@
+﻿Topic,Code,Wikipedia,Informal,Formal,Problems,Subareas,Professors,Careers,Classes,Conferences
+Core,core,https://simple.wikipedia.org/wiki/Computer_science,How do we solve problems with computational agents?,,,,,,,
+Artificial Intelligence,ai,https://simple.wikipedia.org/wiki/Artificial_intelligence,How do we make computers act smarter?,,,,,,,
+Human-Computer Interaction,hci,https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction,How do we make technology friendlier?,,,,,,,
+Machine Learning,ml,https://en.wikipedia.org/wiki/Machine_learning,How do we make systems that improve with experience?,,,,,,,
+Data Science,ds,https://en.wikipedia.org/wiki/Data_science,How do we analyze information using computation?,,,,,,,
+Theory,thry,https://en.wikipedia.org/wiki/Theoretical_computer_science,What are the limits of computing?,"What is ""Computer Science?""",,,,,,
+Networks and Systems,nw,https://en.wikipedia.org/wiki/Computer_network,How do we make computer communication better?,,,,,,,
+Programming Languages,pl,https://en.wikipedia.org/wiki/Programming_language_theory,How do we make programming languages better?,,,,,,,
+Bioinformatics,bio,https://en.wikipedia.org/wiki/Bioinformatics,How do we leverage CS for Biology?,,,,,,,
+Computer Science Education,csed,https://en.wikipedia.org/wiki/Computer_science_education,How do we teach Computer Science better?,,"* How do we make CS more welcoming?
+* How should we bring CS into the K-12 level?
+* How do we smooth out introductory learning experiences?","Introductory Computing Education, Inclusivity and Diversity,","bart, pollock",,,
+Information Retrieval,ir,https://en.wikipedia.org/wiki/Information_retrieval,How do we look up information more effectively?,,,,,,,
+Information Systems,is,https://www.udel.edu/apply/undergraduate-admissions/major-finder/information-systems/,How do we leverage CS for Business?,,,,,,,
+Software Engineering,se,https://en.wikipedia.org/wiki/Software_engineering,How do we make it easier to make software?,,,,,,,
+Cybersecurity,cyb,https://en.wikipedia.org/wiki/Computer_security,How do we make software safe from bad actors?,,,,,,,
+Robotics,rob,https://en.wikipedia.org/wiki/Robotics,How do we make physical devices act intelligently?,,,,,,,
+Computer Vision,cv,https://en.wikipedia.org/wiki/Computer_vision,How do we let software observe the surrounding world?,,,,,,,
+High Performance Computing,hpc,https://en.wikipedia.org/wiki/Supercomputer,How do we make software much faster and more efficient?,,,,,,,
+Cognitive Science,cgs,https://en.wikipedia.org/wiki/Computational_cognition,How do we leverage CS to study the human mind? ,,,,,,,
+Natural Language Processing,nlp,https://en.wikipedia.org/wiki/Natural_language_processing,How do we let software make sense of human language?,,,,,,,
