@@ -6,6 +6,8 @@ collections:
     output: true
   courses:
     output: true
+  careers:
+    output: true
 baseurl: /student-guidance
 permalink: /student-guidance/:categories/:year/:month/:day/:title/
 markdown: kramdown
@@ -20,6 +22,11 @@ defaults:
       type: "courses"
     values:
       layout: "courses"
+  - scope:
+      path: ""
+      type: "careers"
+    values:
+      layout: "careers"
   - scope:
       path: ""
       type: "posts"

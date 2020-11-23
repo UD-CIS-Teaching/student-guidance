@@ -2,10 +2,21 @@
 title: "Artificial Intelligence"
 code: ai
 wikipedia: "https://simple.wikipedia.org/wiki/Artificial_intelligence"
+catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29656
+official: true
 question: "How do we make computers act smarter?"
 courses:
     - CISC481
     - CISC304
+related:
+    - ml
+    - ds
+careers:
+    - software_engineer
+    - data_analyst
+    - researcher
+    - robotics_engineer
+    - machine_learning_engineer
 ---
 
 Computers are dumb. They follow instructions fast, but cannot think for themselves. Artificial Intelligence is all about ways to make computers appear to be smarter.
