@@ -1,7 +1,6 @@
 ---
 name: "Artificial Intelligence"
 code: ai
-permalink: /concentrations/ai/
 wikipedia: "https://simple.wikipedia.org/wiki/Artificial_intelligence"
 question: "How do we make computers act smarter?"
 courses:
