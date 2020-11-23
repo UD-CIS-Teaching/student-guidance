@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index
+title: Overview
 ---
 
 This website is meant to help students pick a concentration in Computer Science.
