@@ -53,7 +53,16 @@ layout: default
 <ul>
 {% for course in page.courses %}
     {% assign course_data = site.courses | where: "code", course | first %}
-    <li><a href="{{ course_data.catalog }}"><strong>{{ course_data.code }} - {{ course_data.name }}</strong></a>: {{ course_data.content | markdownify }}</li>
+    <li><a href="{{ course_data.catalog }}"><strong>{{ course_data.code }} - {{ course_data.name }}</strong></a>: {{ course_data.content | markdownify }}
+    {% if course_data.links %}
+    <p>Related Links: 
+    <ul>
+    {% for link in course_data.links %}
+    <li>{{ link | markdownify }}</li>
+    {% endfor %}
+    </ul>
+    </p>
+    {% endif %}</li>
 {% endfor %}
 </ul>
 

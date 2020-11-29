@@ -6,7 +6,10 @@ catalog:
 video: https://www.youtube.com/embed/C_AsBA0oHlE
 official: false
 question: How do we make technology better for humans?
-courses: []
+courses:
+    - CISC482
+    - CISC474
+    - CISC374
 related: []
 careers:
     - software_engineer

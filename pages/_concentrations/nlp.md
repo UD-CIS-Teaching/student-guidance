@@ -6,7 +6,8 @@ catalog:
 video: https://www.youtube.com/embed/fOvTtapxa9c
 official: false
 question: How do we let software make sense of human language?
-courses: []
+courses:
+    - CISC483
 related: []
 careers:
     - software_engineer

@@ -6,7 +6,11 @@ catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29655
 video: https://www.youtube.com/embed/bPVaOlJ6ln0
 official: true
 question: "How do we make software safe from bad actors?"
-courses: []
+courses:
+    - CISC464
+    - CISC465
+    - CISC472
+    - CISC476
 related: []
 careers: []
 description: Backdoor vulnerabilities. Denial of service attacks. Viruses, worms, and cyberintrusions. Massive security breaches at major corporations, government facilities, and other institutions are announced on a regular basis. Is it any surprise that cybersecurity experts are among the most in-demand computer science professionals? Students in this concentration study the whole spectrum of vulnerabilities as well as countermeasures to defend against them. Learn how to design secure software/hardware systems and networks; explore intrusion detection, cryptographic protocols, firewalls, and access control, among other topics.
