@@ -8,8 +8,12 @@ official: true
 question: "How do we leverage CS for Biology?"
 courses:
     - CISC436
+    - CISC372
+    - CHEM321
+    - BISC401
 related: []
-careers: []
+careers:
+    - computational_biologist
 description: Bioinformatics lies at the intersection of computational science and biology.  The field is gaining impact in recent years as biology becomes increasingly data-centric and quantitative.  There is a growing need for individuals with training in biology, chemistry, and computer science. This concentration combines background in life sciences with expertise in computational methods to fill this need. Students successfully completing this concentration will be well-prepared for graduate studies in computer science or bioinformatics and for a variety of interdisciplinary careers in industry and in health and research institutes.
 ---
 

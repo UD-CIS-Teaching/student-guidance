@@ -11,6 +11,9 @@ courses:
     - CISC372
 related: []
 careers:
+    - systems_architect
+    - researcher
+    - hpc_systems_admin
     - software_engineer
 description: High Performance Computing researchers and engineers are applying the world's most powerful computers to a wide array of scientific and engineering challenges, including climate modeling, weather prediction, the design of aircraft, skyscrapers, and automobiles, the development of new pharmaceuticals and medical treatments, modeling of the human brain, galactic interaction, and the nature of matter. The HPC concentration delves into all aspects of these advanced computing systems, from the hardware level to the programming languages, parallel algorithms, mathematical underpinnings, and applications.  The concentration also offers a choice between a data track which focuses on data analysis and statistics, and an applied mathematics track which focuses on the mathematical tools used to model real-world phenomena.
 ---

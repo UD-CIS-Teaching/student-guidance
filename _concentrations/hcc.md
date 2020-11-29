@@ -12,6 +12,9 @@ courses:
     - CISC374
 related: []
 careers:
+    - usability_engineer
+    - web_developer
     - software_engineer
+    - researcher
 description: 
 ---

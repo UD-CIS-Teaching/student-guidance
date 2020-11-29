@@ -12,6 +12,7 @@ courses:
     - CISC410
 related: []
 careers:
+    - researcher
     - software_engineer
 description: "The Theory and Computation concentration bridges the mathematics-computer science interface.  Applications flow in both directions: mathematical concepts, such as formal logic, automata, and models of computation, form the theoretical foundation of computer science, while computational methods are widely used in many areas of mathematics, including linear algebra, graph theory, differential equations, algebra, theorem proving, and algorithmic analysis.  The concentration offers a broad spectrum of courses in these and other subjects in mathematics and computer science.  Students in the concentration have a choice between a \"discrete\" and a \"continuous\" track."
 ---

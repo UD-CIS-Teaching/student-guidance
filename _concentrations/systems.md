@@ -11,7 +11,9 @@ courses:
     - CISC453
 related: []
 careers:
+    - network_architect
     - software_engineer
+    - web_developer
 description: Are you interested in implementing a new programming language or a virtual machine for a new computer or network architecture?  Contributing to the next operating system or Internet of everything?  Improving the security of software and networks?  Then the Systems and Networks concentration is for you.  Through a range of courses covering operating systems, compilers, architecture, networks, and cybersecurity, students learn how modern computational systems function from the application layer all the way down to the hardware-software interface.
 ---
 
