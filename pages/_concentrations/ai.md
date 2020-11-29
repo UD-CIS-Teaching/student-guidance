@@ -1,8 +1,9 @@
 ---
-title: "Artificial Intelligence"
+title: "Artificial Intelligence and Robotics"
 code: ai
 wikipedia: "https://simple.wikipedia.org/wiki/Artificial_intelligence"
 catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29656
+video: https://www.youtube.com/embed/JRHAM1nAuD4
 official: true
 question: "How do we make computers act smarter?"
 courses:
@@ -19,9 +20,7 @@ careers:
     - machine_learning_engineer
 ---
 
-Computers are dumb. They follow instructions fast, but cannot think for themselves. Artificial Intelligence is all about ways to make computers appear to be smarter.
-
-<iframe width="644" height="362" src="https://www.youtube.com/embed/JRHAM1nAuD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+How do automatic translation apps work?  How do driverless cars "see" the road?  What has been behind the recent streak of computer programs beating human world champions at all kinds of games?  The AI and Robotics concentration is concerned with understanding the building blocks of cognition, as well as applying them to the development of systems that are able to perform tasks traditionally associated with human brainpower, dexterity, and/or mobility.  Courses in this concentration will cover abstract notions of intelligence, including logical reasoning, knowledge representation, language, and planning; a spectrum of methods for pattern analysis and learning-by-example, including deep learning and neural networks; and skills for embodied agents, such as perception (via visual and other sensors), navigation, and interaction.
 
 ## Official Description
 
