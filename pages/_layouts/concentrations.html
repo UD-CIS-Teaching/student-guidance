@@ -5,7 +5,11 @@ layout: default
 
 <em>{{ page.question }}</em>
 
-<p><a href="{{ page.catalog }}">Catalog 2020/2021 Link</a>{% unless page.official %} (Note, this is not an official existing concentration){% endunless %}</p>
+{% if page.official %}
+<p><a href="{{ page.catalog }}">Catalog 2020/2021 Link</a> to full concentration description</p>
+{% else %}
+<p><a href="https://catalog.udel.edu/preview_program.php?catoid=40&poid=29400">Generic BSCS Catalog 2020/2021 Link</a> (this is not an official concentration)</p>
+{% endif %}
 
 <p>Quick links:
     <ul>
@@ -23,9 +27,13 @@ layout: default
 
 <iframe width="644" height="362" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{% if content %}
+
 <h2>Longer Description</h2>
 
 {{ content }}
+
+{% endif %}
 
 <h2>Example Careers</h2>
 

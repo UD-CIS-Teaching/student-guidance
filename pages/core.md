@@ -47,7 +47,7 @@ Although most of the early curriculum does not cover these ideas, their groundwo
 
 Software Development is at the heart of every Computer Science degree. By using what we know about programming and the theories surrounding it, we can write large-scale programs that solve problems that real folks have. However, this is more than just coding or choosing data structures. Modern software development involves a huge amount of conversations with stakeholders to determine clients' actual needs, in order to build very complex inter-woven systems. CISC275 is the major course to unify all these ideas previously introduced.
 
-## Realities of Hardware
+## Machine Organization
 
 Computer Science, unlike Computer Engineering, focuses largely on software rather than hardware (physical computing devices that run software). However, it's not realistic to talk about software without understanding at least the basics of how it interacts with hardware.
 For that reason, two courses introduce basic ideas of how software and hardware coexist: CISC210 and CISC260.
@@ -58,3 +58,11 @@ Computer Science gives us new knowledge and power, which can let us change the w
 These changes have not always been for the better, and we always run the risk of making things worse.
 For that reason, UD Computer Science has an emphasis on ethical reasoning to help you navigate the ethics of software development.
 Although all courses integrate ethics at different times, an entire course is also dedicated to the topic: CISC355.
+
+# Subfields of Computer Science
+
+Computer Science is a truly massive field. The core prepares you for a wide array of experiences, and then you can specialize further with a concentration. The videos below give you a quick run through of many of the possible concentrations, subfields, and careers available to you. But remember these are not exhaustive, there's so much more out there!
+
+<iframe width="1903" height="928" src="https://www.youtube.com/embed/2VpDcjFshJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="1903" height="928" src="https://www.youtube.com/embed/SzJ46YA_RaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
