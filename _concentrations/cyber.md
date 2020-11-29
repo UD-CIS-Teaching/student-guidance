@@ -3,7 +3,7 @@ title: "Cybersecurity"
 code: cyber
 wikipedia: "https://en.wikipedia.org/wiki/Computer_security"
 catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29655
-video: https://www.youtube.com/watch?v=bPVaOlJ6ln0
+video: https://www.youtube.com/embed/bPVaOlJ6ln0
 official: true
 question: "How do we make software safe from bad actors?"
 courses: []
