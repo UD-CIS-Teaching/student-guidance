@@ -63,6 +63,6 @@ Although all courses integrate ethics at different times, an entire course is al
 
 Computer Science is a truly massive field. The core prepares you for a wide array of experiences, and then you can specialize further with a concentration. The videos below give you a quick run through of many of the possible concentrations, subfields, and careers available to you. But remember these are not exhaustive, there's so much more out there!
 
-<iframe width="1903" height="928" src="https://www.youtube.com/embed/2VpDcjFshJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="644" height="362" src="https://www.youtube.com/embed/2VpDcjFshJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="1903" height="928" src="https://www.youtube.com/embed/SzJ46YA_RaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="644" height="362" src="https://www.youtube.com/embed/SzJ46YA_RaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
