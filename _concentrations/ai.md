@@ -8,6 +8,7 @@ official: true
 question: "How do we make computers act smarter?"
 courses:
     - CISC481
+    - CISC442
     - CISC304
 related:
     - ml

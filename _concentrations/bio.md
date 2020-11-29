@@ -6,7 +6,8 @@ catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29657
 video: https://www.youtube.com/embed/MkXsy_VNwcQ
 official: true
 question: "How do we leverage CS for Biology?"
-courses: []
+courses:
+    - CISC436
 related: []
 careers: []
 description: Bioinformatics lies at the intersection of computational science and biology.  The field is gaining impact in recent years as biology becomes increasingly data-centric and quantitative.  There is a growing need for individuals with training in biology, chemistry, and computer science. This concentration combines background in life sciences with expertise in computational methods to fill this need. Students successfully completing this concentration will be well-prepared for graduate studies in computer science or bioinformatics and for a variety of interdisciplinary careers in industry and in health and research institutes.

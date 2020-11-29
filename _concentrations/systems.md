@@ -6,7 +6,10 @@ catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29659
 video: https://www.youtube.com/embed/SNyxglrrGWI
 official: true
 question: How do we make computer communication better?
-courses: []
+courses:
+    - CISC450
+    - CISC453
+    - CISC459
 related: []
 careers:
     - software_engineer

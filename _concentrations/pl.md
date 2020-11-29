@@ -6,7 +6,8 @@ catalog:
 video: https://www.youtube.com/embed/UXg0C5nFOWw
 official: false
 question: How do we make programming languages better?
-courses: []
+courses:
+    - CISC471
 related: []
 careers:
     - software_engineer

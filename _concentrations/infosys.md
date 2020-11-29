@@ -6,7 +6,10 @@ catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29401
 video: https://www.youtube.com/embed/ZaYWAc8HRDs
 official: true
 question: How do we leverage CS for Business?
-courses: []
+courses:
+    - CISC437
+    - CISC355
+    - MISY430
 related: []
 careers:
     - software_engineer

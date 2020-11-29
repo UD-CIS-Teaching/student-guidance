@@ -6,7 +6,10 @@ catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29658
 video: https://www.youtube.com/embed/bkLVuNfiCVs
 official: true
 question: How do we make software much faster and more efficient?
-courses: []
+courses:
+    - CISC360
+    - CISC372
+    - CISC479
 related: []
 careers:
     - software_engineer

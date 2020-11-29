@@ -6,7 +6,13 @@ catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29653
 video: https://www.youtube.com/embed/SV57Yv8BXBc
 official: true
 question: What are the limits of computing?
-courses: []
+courses:
+    - CISC303
+    - CISC320
+    - CISC304
+    - CISC401
+    - CISC404
+    - CISC410
 related: []
 careers:
     - software_engineer

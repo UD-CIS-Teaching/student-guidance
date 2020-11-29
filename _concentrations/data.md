@@ -6,7 +6,10 @@ catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29654
 video: https://www.youtube.com/embed/xC-c7E5PK0Y
 official: true
 question: "How do we analyze information using computation?"
-courses: []
+courses:
+    - CISC483
+    - CISC484
+    - CISC481
 related: 
     - ml
     - ai
