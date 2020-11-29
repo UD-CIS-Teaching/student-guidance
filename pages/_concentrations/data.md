@@ -11,10 +11,10 @@ related:
     - ml
     - ai
 careers:
-    - software_engineer
     - data_analyst
-    - researcher
     - machine_learning_engineer
+    - researcher
+    - software_engineer
 description: Data is everywhere.  Large and diverse datasets representing every aspect of modern life are now available.  These data come in a variety of forms that can be either structured or unstructured.  Data science is concerned with translating these disparate data sources into useful knowledge, through application of techniques drawn from computer science, mathematics, and statistics.  The data science concentration provides the core background necessary for representing, analyzing, managing and putting these datasets to use in real-world applications.  This concentration combines courses in advanced mathematics, statistics, artificial intelligence, machine learning, and data mining, preparing students to make contributions in this highly interdisciplinary field.
 ---
 
