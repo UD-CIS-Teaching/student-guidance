@@ -17,16 +17,29 @@ Start by reading about the [core](core).
 
 # Concentration List
 
-<p>Then, you can explore possible concentrations from the list below.</p>
+<p>Then, you can explore possible official concentrations from the list below.</p>
 
 <ul>
 {% for concentration in site.concentrations %}
+{% if concentration.official %}
     <li>
-        {% if concentration.official }<strong>{% endif %}
         <a href="{{ concentration.url | relative_url }}">{{ concentration.title }}</a>
             - {{ concentration.question }}
-        {% if concentration.official }</strong>{% endif %}
     </li>
+{% endif %}
+{% endfor %}
+</ul>
+
+<p>Here are some other concentrations that are not officially offered; but you can always make your own concentration!</p>
+
+<ul>
+{% for concentration in site.concentrations %}
+{% unless concentration.official %}
+    <li>
+        <a href="{{ concentration.url | relative_url }}">{{ concentration.title }}</a>
+            - {{ concentration.question }}
+    </li>
+{% endunless %}
 {% endfor %}
 </ul>
 
