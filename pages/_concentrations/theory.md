@@ -8,10 +8,7 @@ official: true
 question: What are the limits of computing?
 courses:
     - CISC303
-    - CISC320
     - CISC304
-    - CISC401
-    - CISC404
     - CISC410
 related: []
 careers:

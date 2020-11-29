@@ -9,7 +9,6 @@ question: How do we make computer communication better?
 courses:
     - CISC450
     - CISC453
-    - CISC459
 related: []
 careers:
     - software_engineer
