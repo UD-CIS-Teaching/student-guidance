@@ -9,11 +9,8 @@ question: "How do we leverage CS for Biology?"
 courses: []
 related: []
 careers: []
+description: Bioinformatics lies at the intersection of computational science and biology.  The field is gaining impact in recent years as biology becomes increasingly data-centric and quantitative.  There is a growing need for individuals with training in biology, chemistry, and computer science. This concentration combines background in life sciences with expertise in computational methods to fill this need. Students successfully completing this concentration will be well-prepared for graduate studies in computer science or bioinformatics and for a variety of interdisciplinary careers in industry and in health and research institutes.
 ---
-
-Bioinformatics lies at the intersection of computational science and biology.  The field is gaining impact in recent years as biology becomes increasingly data-centric and quantitative.  There is a growing need for individuals with training in biology, chemistry, and computer science. This concentration combines background in life sciences with expertise in computational methods to fill this need.  Students successfully completing this concentration will be well-prepared for graduate studies in computer science or bioinformatics and for a variety of interdisciplinary careers in industry and in health and research institutes.
-
-## Official Description
 
 The B.S. in Computer Science with Concentration in
   Bioinformatics provides a broad background in core computer science
