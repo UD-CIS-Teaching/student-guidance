@@ -18,11 +18,8 @@ careers:
     - researcher
     - robotics_engineer
     - machine_learning_engineer
+description: How do automatic translation apps work?  How do driverless cars "see" the road?  What has been behind the recent streak of computer programs beating human world champions at all kinds of games?  The AI and Robotics concentration is concerned with understanding the building blocks of cognition, as well as applying them to the development of systems that are able to perform tasks traditionally associated with human brainpower, dexterity, and/or mobility.  Courses in this concentration will cover abstract notions of intelligence, including logical reasoning, knowledge representation, language, and planning; a spectrum of methods for pattern analysis and learning-by-example, including deep learning and neural networks; and skills for embodied agents, such as perception (via visual and other sensors), navigation, and interaction.
 ---
-
-How do automatic translation apps work?  How do driverless cars "see" the road?  What has been behind the recent streak of computer programs beating human world champions at all kinds of games?  The AI and Robotics concentration is concerned with understanding the building blocks of cognition, as well as applying them to the development of systems that are able to perform tasks traditionally associated with human brainpower, dexterity, and/or mobility.  Courses in this concentration will cover abstract notions of intelligence, including logical reasoning, knowledge representation, language, and planning; a spectrum of methods for pattern analysis and learning-by-example, including deep learning and neural networks; and skills for embodied agents, such as perception (via visual and other sensors), navigation, and interaction.
-
-## Official Description
 
 The B.S. in Computer Science with Concentration in Artificial Intelligence & Robotics provides a broad background in core computer science topics, supplemented by advanced courses in logic, machine learning, computer vision, and a number of electives in related areas of linguistics, electrical and mechanical engineering, and psychology. The Department of Computer & Information Sciences has substantial expertise in AI and robotics, with many faculty specializing in AI research, including natural language processing, multi-agent systems, knowledge representation, computer vision, intelligent tutoring systems, and robotic development.
 

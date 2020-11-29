@@ -10,7 +10,7 @@ layout: default
 <p>Quick links:
     <ul>
         <li><a href="#overview">Overview</a></li>
-        <li><a href="#official-description">Official Description</a></li>
+        <li><a href="#longer-description">Longer Description</a></li>
         <li><a href="#careers">Example Careers</a></li>
         <li><a href="#relevant-courses">Relevant Courses</a></li>
         <li><a href="#degree-flow">Degree Flow</a></li>
@@ -19,9 +19,13 @@ layout: default
 
 <h2>Overview</h2>
 
-{{ content }}
+{{ page.description }}
 
-<iframe width="644" height="362" src="{{ video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="644" height="362" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Longer Description</h2>
+
+{{ content }}
 
 <h2>Example Careers</h2>
 
