@@ -27,12 +27,11 @@ layout: default
 
 <iframe width="644" height="362" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% if content %}
-
 <h2>Longer Description</h2>
-
+{% if page.official %}
 {{ content }}
-
+{% else %}
+This is not an official concentration, so it does not have a longer description. If you choose to major in this, you will need to make your own decisions about what courses to take!
 {% endif %}
 
 <h2>Example Careers</h2>
@@ -70,6 +69,10 @@ layout: default
 
 <p>The <a href="../../core">Core</a> describes the first four semesters.</p>
 
+{% if page.official %}
 <p>Afterwards, the last four semesters are as follows:</p>
-
 <img src="../../images/cs_{{ page.code }}.png" />
+{% else %}
+<p>Afterwards, the last four semesters are as follows (remember, this is not an official concentration, so you will need to justify your concentration courses):</p>
+<img src="../../images/cs_bs.png" />
+{% endif}

@@ -8,8 +8,8 @@ official: true
 question: How do we leverage CS for Business?
 courses:
     - CISC437
-    - CISC355
     - MISY430
+    - CISC355
 related: []
 careers:
     - software_engineer
