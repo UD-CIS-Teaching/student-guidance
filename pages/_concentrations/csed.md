@@ -12,7 +12,6 @@ courses:
 related:
 careers:
     - educational_technology_designer
-    - educational_game_designer
     - teacher
     - software_engineer
 description: Technology has the potential to help teach many subjects (including Computer Science) more effectively. On the other hand, computing is increasingly relevant to a wider and wider audience. This subfield is more than just about teaching or technology, it is about the design of software and systems to promote education. Applying methodology from artificial intelligence, software engineering, data science, and other subfields raises the possibility of broadening access to computing and many other subjects, reaching new populations in ways that truly augment human's amazing ability to learn.
