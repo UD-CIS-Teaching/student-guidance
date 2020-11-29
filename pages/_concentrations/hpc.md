@@ -9,7 +9,6 @@ question: How do we make software much faster and more efficient?
 courses:
     - CISC360
     - CISC372
-    - CISC479
 related: []
 careers:
     - software_engineer
