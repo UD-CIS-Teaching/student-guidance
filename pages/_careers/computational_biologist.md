@@ -1,0 +1,5 @@
+---
+title: "Computational Biologist"
+name: computational_biologist
+---
+Computational biologists or bioinformatics scientists use computational theoretical principles to understand biological systems. They are experts in computational management, data-algorithm, high-performance computing, statistical processes, and biological processes. Their duties include extensive research and rigorous computer programming, and they must have in-depth knowledge of biochemistry. The majority of computational biologists, like other types of biological scientists, work full-time, regular schedules. While they are biologists, computational scientists work primarily with the findings of research and spend much of their time with computers in an office or laboratory setting. Those who are exposed to hazardous materials must take precautions to minimize risk of injury or illness.
