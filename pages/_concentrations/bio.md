@@ -14,7 +14,9 @@ courses:
 related: []
 careers:
     - computational_biologist
-description: Bioinformatics lies at the intersection of computational science and biology.  The field is gaining impact in recent years as biology becomes increasingly data-centric and quantitative.  There is a growing need for individuals with training in biology, chemistry, and computer science. This concentration combines background in life sciences with expertise in computational methods to fill this need. Students successfully completing this concentration will be well-prepared for graduate studies in computer science or bioinformatics and for a variety of interdisciplinary careers in industry and in health and research institutes.
+    - environmental_engineer
+    - biostatistician
+description: Bioinformatics is an interdisciplinary field that incorporates computer science and biology to research, develop, and apply computational tools and approaches to manage and process large sets of biological data. The Bioinformatics career focuses on creating software tools to store, manage, interpret, and analyze data at the genome, proteome, transcriptome, and metabalome levels. Primary investigations consist of integrating information from DNA and protein sequences and protein structure and function. Bioinformatics jobs exist in biomedical, molecular medicine, energy development, biotechnology, environmental restoration, homeland security, forensic investigations, agricultural, and animal science fields. Most bioinformatics jobs require a Bachelor's degree. Post-grad programs, University level teaching & research, and administrative positions require a graduate degree.
 ---
 
 The B.S. in Computer Science with Concentration in
