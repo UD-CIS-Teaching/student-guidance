@@ -1,7 +1,7 @@
 digraph world {
 
     node [ fillcolor="lightblue" style=filled ];
-    size="14,7";
+    size="7,7";
     rankdir="LR";
     
     "First" -> "Second" -> "Third" -> "Fourth";
@@ -16,7 +16,8 @@ digraph world {
     {rank=same; "Fourth";CISC275;CISC355;MATH205;"Lab Sci #2";"Breadth 4/5"}
 
     
-    MATH242 -> "Lab Sci #1" [style="invis"];
+    CISC260 -> "CISC355" [style="invis"];
+    MATH243 -> "Breadth 4/5" [style="invis"];
     
     MATH210 -> CISC220 [dir="both" style=dashed];
     CISC108 -> MATH241 [dir="both" style=dashed];
@@ -26,7 +27,7 @@ digraph world {
     CISC108 -> {CISC181; CISC210};
     CISC210 -> {CISC220 ; CISC260}
     CISC181 -> CISC220 [style=dashed];
-    MATH241 -> MATH242;
+    MATH241 -> MATH242 -> MATH243;
     MATH210 -> {MATH205};
     CISC220 -> {CISC275 }
     CISC355;

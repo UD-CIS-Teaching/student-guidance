@@ -1,0 +1,25 @@
+digraph world {
+
+    node [ fillcolor="lightblue" style=filled ];
+    size="7,7";
+    rankdir="LR";
+    
+    "Fifth" -> "Sixth" -> "Seventh" -> "Eighth";
+    "Fifth" [shape="box" fillcolor="lightyellow"];
+    "Sixth" [shape="box" fillcolor="lightyellow"];
+    "Seventh" [shape="box" fillcolor="lightyellow"];
+    "Eighth" [shape="box" fillcolor="lightyellow"];
+
+    {rank=same; "Fifth";CISC320;"Track\nRequirement 1/4";"Free\nElective 2/6";CISC304; MATH349;}
+    {rank=same; "Sixth";"ENGL410";"Free\nElective 3/6";"Track\nRequirement 2/4";"CISC303";"Free\nElective 4/6";}
+    {rank=same; "Seventh";CISC498;"CISC401";"Restricted\nElective 1/2";"Free\nElective 5/6"}
+    {rank=same; "Eighth";CISC499;"CISC Elective";"Track\nRequirement 4/4";"Restricted\nElective 2/2";"Free\nElective 6/6"}
+    
+    "Free\nElective 2/6" -> "Free\nElective 3/6" -> "Free\nElective 5/6" -> "Free\nElective 6/6" [style=invis];
+    "Track\nRequirement 1/4" -> "Track\nRequirement 2/4" -> "Track\nRequirement 3/4" -> "Track\nRequirement 4/4" [style=invis];
+    CISC320 -> CISC303 [style=invis];
+    CISC401 -> "CISC Elective" [style=invis];
+    "ENGL410" -> "Free\nElective 4/6" [style=invis];
+    CISC303 -> CISC401;
+    CISC498 -> CISC499;
+}
