@@ -1,0 +1,25 @@
+digraph world {
+
+    node [ fillcolor="lightblue" style=filled ];
+    size="7,7";
+    rankdir="LR";
+    
+    "Fifth" -> "Sixth" -> "Seventh" -> "Eighth";
+    "Fifth" [shape="box" fillcolor="lightyellow"];
+    "Sixth" [shape="box" fillcolor="lightyellow"];
+    "Seventh" [shape="box" fillcolor="lightyellow"];
+    "Eighth" [shape="box" fillcolor="lightyellow"];
+
+    {rank=same; "Fifth";CISC320;"CISC Elective";"Free Elective 3/6";CISC361; CISC450;}
+    {rank=same; "Sixth";"ENGL410";"Restricted\nElective 1/2";"Free Elective 4/6";"CISC303";CISC372}
+    {rank=same; "Seventh";CISC498;"Advanced Cyber\nRequirement 1/2";"Free Elective 5/6";"Restricted\nElective 2/2";CISC464;}
+    {rank=same; "Eighth";CISC499;"CISC465";CPEG494;"Advanced Cyber\nRequirement 2/2";"Free Elective 6/6"}
+    
+    CISC450 -> CISC464;
+    CISC498 -> CISC499;
+    "Free Elective 3/6" -> "Free Elective 4/6" -> "Free Elective 5/6" -> "Free Elective 6/6" [style=invis];
+    CISC320 -> ENGL410 -> CISC498 [style=invis];
+    CISC361 -> CISC372 -> "Advanced Cyber\nRequirement 1/2" -> "Advanced Cyber\nRequirement 2/2" [style=invis];
+    "CISC Elective" -> CISC303 -> CPEG494 [style=invis];
+    
+}
