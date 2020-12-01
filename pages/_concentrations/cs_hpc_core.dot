@@ -1,7 +1,6 @@
 digraph world {
 
     node [ fillcolor="lightblue" style=filled ];
-    edge[arrowhead="vee",minlen=2];
     size="7,7";
     rankdir="LR";
     
@@ -10,23 +9,27 @@ digraph world {
     "Second" [shape="box" fillcolor="lightyellow"];
     "Third" [shape="box" fillcolor="lightyellow"];
     "Fourth" [shape="box" fillcolor="lightyellow"];
-
-    {rank=same; "First";CISC108;MATH241;"Breadth 1/5";EGGG101;ENGL110;}
-    {rank=same; "Second";CISC181;CISC210;"Breadth 2/5";"Breadth 3/5"}
-    {rank=same; "Third";CISC220;CISC260;MATH210;"Lab Sci #1";"Free Elective 2/6"}
-    {rank=same; "Fourth";CISC275;CISC355;"Lab Sci #2";"Breadth 4/5"}
     
-    MATH242 -> "Lab Sci #1" [style="invis"];
+    {rank=same; "First";CISC108;MATH241;"Breadth 1/5";EGG101;ENGL110;}
+    {rank=same; "Second";CISC181;CISC210;MATH242;"Breadth 2/5";"Breadth 3/5"}
+    {rank=same; "Third";CISC220;CISC260;MATH243;MATH210;"Lab Sci #1";}
+    {rank=same; "Fourth";CISC275;CISC355;MATH205;"Lab Sci #2";"Breadth 4/5"}
+
+    
+    CISC260 -> "CISC355" [style="invis"];
+    MATH243 -> "Breadth 4/5" [style="invis"];
     
     MATH210 -> CISC220 [dir="both" style=dashed];
     CISC108 -> MATH241 [dir="both" style=dashed];
 
+    EGG101;
     "Lab Sci #1" -> "Lab Sci #2";
     CISC108 -> {CISC181; CISC210};
     CISC210 -> {CISC220 ; CISC260}
     CISC181 -> CISC220 [style=dashed];
-    MATH241 -> MATH242;
+    MATH241 -> MATH242 -> MATH243;
     MATH210 -> {MATH205};
     CISC220 -> {CISC275 }
     CISC355;
+    
 }

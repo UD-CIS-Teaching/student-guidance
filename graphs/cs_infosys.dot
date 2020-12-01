@@ -10,10 +10,13 @@ digraph world {
     "Seventh" [shape="box" fillcolor="lightyellow"];
     "Eighth" [shape="box" fillcolor="lightyellow"];
 
-    {rank=same; "Fifth";"BUAD306";"ENGL312/410";"IS Elective 1/2";"General Elective 1/7";"General Elective 2/7";}
-    {rank=same; "Sixth";"CISC437";"BUAD309";"BUAD301/FINC311";"IS Elective 2/2";"General Elective 3/7";}
-    {rank=same; "Seventh";"COMM212";"CISC355";"MISY430";"General Elective 4/7";"General Elective 5/7"}
-    {rank=same; "Eighth";"CISC475";"MISY431";"MISY432";"Free Elective 6/7";"General Elective 7/7"}
+    {rank=same; "Fifth";"BUAD306";"ENGL312/410";"IS Elective 1/2";"Free Elective 2/8";"Free Elective 3/8";}
+    {rank=same; "Sixth";"CISC437";"BUAD309";"BUAD301/FINC311";"IS Elective 2/2";"Free Elective 4/8";}
+    {rank=same; "Seventh";"COMM212";"CISC355";"MISY430";"Free Elective 5/8";"Free Elective 6/8"}
+    {rank=same; "Eighth";"CISC475";"MISY431";"MISY432";"Free Elective 7/8";"Free Elective 8/8"}
     
-    
+    CISC437 -> MISY430;
+    MISY430 -> MISY431;
+    MISY430 -> MISY432;
+    MISY431 -> MISY432 [dir="both" style=dashed];
 }
