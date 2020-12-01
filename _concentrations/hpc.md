@@ -1,6 +1,7 @@
 ---
 title: High-Performance Computing
 code: hpc
+alt_core: true
 wikipedia: "https://en.wikipedia.org/wiki/Supercomputer"
 catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29658
 video: https://www.youtube.com/embed/bkLVuNfiCVs
