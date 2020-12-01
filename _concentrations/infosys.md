@@ -1,6 +1,7 @@
 ---
 title: Information Systems
 code: infosys
+alt_core: true
 wikipedia: "https://www.udel.edu/apply/undergraduate-admissions/major-finder/information-systems/"
 catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29401
 video: https://www.youtube.com/embed/ZaYWAc8HRDs
