@@ -1,6 +1,7 @@
 ---
 title: "Data Science"
 code: data
+alt_core: true
 wikipedia: "https://en.wikipedia.org/wiki/Data_science"
 catalog: https://catalog.udel.edu/preview_program.php?catoid=40&poid=29654
 video: https://www.youtube.com/embed/xC-c7E5PK0Y
