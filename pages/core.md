@@ -2,8 +2,8 @@
 title: "The CISC Core"
 ---
 
-The diagram below shows the first four semesters of the Computer Science degree.
-It's pretty much the same for all the concentrations and degrees.
+The diagram below shows the first four semesters of the Computer Science BS degree.
+It's pretty much the same for all the concentrations and degrees (although the BA and Information Systems degrees have a few small differences in non-CISC courses).
 That means you have some time to figure out how you want to specialize your degree.
 
 ![images/cs_core.png](images/cs_core.png)
